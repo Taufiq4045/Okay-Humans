@@ -1,3 +1,50 @@
+/*============Glogbal Fonts================ */
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src:  url('/assets/Raleway/static/Raleway-Light.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'Raleway-Variable';
+    src:  url('/assets/Raleway/Raleway-VariableFont_wght.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'Palmer-Lake';
+    src:  url('/assets/myfonts/Jen\ Wagner\ Co.\ -\ Palmer\ Lake\ Print\ Regular.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Jen-Wagner';
+    src:  url('/assets/myfonts/Jen\ Wagner\ Co.\ -\ Palmer\ Lake\ Print\ Regular.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Sofia-Bold';
+    src:  url('/assets/myfonts/Mostardesign\ -\ Sofia\ Pro\ Bold.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Sofia-Light';
+    src:  url('/assets/myfonts/Mostardesign\ -\ Sofia\ Pro\ Light.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Sofia-Medium';
+    src:  url('/assets/myfonts/Mostardesign\ -\ Sofia\ Pro\ Medium.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Sofia-Regular';
+    src:  url('/assets/myfonts/Mostardesign\ -\ Sofia\ Pro\ Regular.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src:  url('/assets/Raleway/static/Raleway-Black.ttf') format('ttf'),
+}
+
 /*============Glogbal Style================ */
 html,
 body {
@@ -5,10 +52,10 @@ body {
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway-Light', ;
     font-size: 16px;
     line-height: 26px;
-    color: #000;
+    color: #6f92a3;
     margin: 0;
 }
 
@@ -25,14 +72,17 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #000;
-    font-weight: 600;
+h5
+ {
+    font-family: 'Raleway-Variable';
+    color: #15364c;
     line-height: 1.7;
     margin: 0;
+}
+
+h4 {
+    font-family: 'Sofia-Bold';
+    font-weight: 600;
 }
 
 .d-table-head {
@@ -113,9 +163,19 @@ img {
     margin-bottom: 60px;
 }
 
+.section-title p {
+    margin-top: 2rem;
+}
+
 .section-title h2 {
     position: relative;
     font-size: 32px;
+}
+
+.section-para h6 {
+    font-family: 'Palmer-Lake';
+    font-size: small;
+    color: #15364c;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -127,10 +187,6 @@ img {
     background-color: #15364c
 }
 
-em {
-    text-decoration: underline;
-}
-
 .header-main {
     display: flex;
     flex-direction: row;
@@ -140,7 +196,9 @@ em {
     margin-left: -3rem;
 }
 
-.navbar-brand.logo h5 {
+.navbar-brand h5 {
+    font-family: 'Raleway-Light';
+    text-decoration: underline;
     max-height: 40px;
     color: white;
 }
@@ -215,11 +273,16 @@ em {
 }
 
 .about-title h2 {
+    font-family: 'Raleway';
+    color: #15364c;
+    font-weight: 700;
+    text-shadow: 4px 4px rgb(223, 222, 221);
+    shape-margin: 1px pink;
 	font-size: 4rem;
 }
 
 .about-title h5 {
-	font-family: sans-serif;
+	font-family: 'Ralway-Light';
     margin: 3rem auto;
     text-align: center;
     font-size: 1.5rem;
@@ -250,6 +313,10 @@ em {
 }
 
 .about-button {
+    font-family: 'Sofia-Bold';
+    color: #15364c;
+    font-size: medium;
+    font-weight: bold;
     background-color: #e8d0cd;
     margin-top: 2rem;
     padding-left: 6rem;
@@ -293,6 +360,11 @@ em {
     z-index: 2;
 }
 
+.section-body p span {
+    color: #15364c;
+    text-decoration: underline;
+}
+
 /*::::::::::::::::::::::::::::::::::::
    Work Section
 ::::::::::::::::::::::::::::::::::::*/
@@ -300,7 +372,7 @@ em {
 .work-title h2:before {
     content: "";
 	display: block;
-	width: 150px;
+	width: 220px;
 	height: 2px;
 	background: #eeecea;
 	left: 0;
@@ -311,7 +383,7 @@ em {
 .work-title h2:after {
 	content: "";
 	display: block;
-	width: 150px;
+	width: 220px;
 	height: 2px;
 	background: #eeecea;
 	right: 0;
@@ -334,6 +406,9 @@ em {
     padding-top: 1rem;
 }
 
+.office {
+    padding : 0px;
+}
 .snap {
     padding-top: 1rem;
 }
@@ -344,23 +419,28 @@ em {
 .operate-title h2:before {
     content: "";
 	display: block;
-	width: 130px;
+	width: 110px;
 	height: 2px;
 	background: #eeecea;
 	left: 0;
-	top: 35%;
+	top: 25%;
 	position: absolute;
 }
 
 .operate-title h2:after {
 	content: "";
 	display: block;
-	width: 130px;
+	width: 110px;
 	height: 2px;
 	background: #eeecea;
 	right: 0;
-	top: 35%;
+	top: 25%;
 	position: absolute;
+}
+
+.operate-title p {
+    margin-top: 1rem;
+    color: #15364c;
 }
 
 .section-operate {
@@ -406,7 +486,7 @@ em {
 .design-title h2:before {
     content: "";
 	display: block;
-	width: 180px;
+	width: 150px;
 	height: 2px;
 	background: #eeecea;
 	left: 0;
@@ -417,7 +497,7 @@ em {
 .design-title h2:after {
 	content: "";
 	display: block;
-	width: 180px;
+	width: 150px;
 	height: 2px;
 	background: #eeecea;
 	right: 0;
@@ -446,46 +526,6 @@ em {
     background-color: #fff;
 }
 
-.single-faq {
-    margin-bottom: 5px;
-}
-
-.single-faq h4 {
-    color: #fff;
-    padding: 5px 15px;
-    background-color: #333;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 24px;
-    position: relative;
-    z-index: 1;
-}
-
-.single-faq h4[aria-expanded="true"]:after {
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
-}
-
-.single-faq h4:after {
-    position: absolute;
-    font-family: FontAwesome;
-    content: "\f107";
-    text-align: center;
-    right: 0;
-    top: 0;
-    color: #fff;
-    background-color: #000;
-    width: 60px;
-    height: 100%;
-    line-height: 200%;
-}
-
-.faq-body {
-    background: #3e3e3e;
-    color: #fff;
-    padding: 15px;
-}
-
 
 /*::::::::::::::::::::::::::::::::::::
    Training Section
@@ -498,7 +538,7 @@ em {
 	height: 2px;
 	background: #eeecea;
 	left: 0;
-	top: 25%;
+	top: 20%;
 	position: absolute;
 }
 
@@ -509,9 +549,33 @@ em {
 	height: 2px;
 	background: #eeecea;
 	right: 0;
-	top: 25%;
+	top: 20%;
 	position: absolute;
 }
+
+.training-title div {
+    margin-top: 2rem;
+}
+
+.training-title p {
+    color: #15364c;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::
+        Form Area
+:::::::::::::::::::::::::::::::::::*/
+
+label {
+    font-family: 'Sofia-Light';
+    color: #15364c;
+}
+
+input, select, textarea {
+    font-family: 'Sofia-Medium';
+    color: #d6d9da;
+}
+
 
 /*:::::::::::::::::::::::::::::::::::
         Footer Area
@@ -523,6 +587,8 @@ em {
 }
 
 ul a {
+    font-family: 'Raleway-Light';
+    font-size: medium;
     color: white;
 }
 
