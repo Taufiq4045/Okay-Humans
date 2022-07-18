@@ -11,7 +11,7 @@
     ::::::::::::::::::::::::::::::::::::*/
     .navbar.navbar-expand-lg.fixed-top {
         position: static;
-        background-color: #000;
+    background-color: #15364c
     }
     button.navbar-toggler {
         color: #fff;
@@ -40,6 +40,15 @@
         margin-top: 30px;
     }
 
+    .about-title h2 {
+        font-size: 3.1rem;
+        font-weight: 700;
+    }
+
+    .about-bg img {
+        max-width: 600px;
+    }
+
     /*::::::::::::::::::::::::::::::::::::
        Service Section
     ::::::::::::::::::::::::::::::::::::*/
@@ -47,18 +56,44 @@
         height: 100%;
     }
 
-    /*::::::::::::::::::::::::::::::::::::
-       Frequently asked questions
-    ::::::::::::::::::::::::::::::::::::*/
-    .faq-content {
-        margin-top: 15px;
+    .section-title h2:before,
+    .section-title h2:after {
+        width: 230px;
     }
+
+    .bg-img {
+        height: 97%;
+        margin: 1rem;
+    }
+
     /*::::::::::::::::::::::::::::::::::::
-       Call to Action Area
+       Operate Section
     ::::::::::::::::::::::::::::::::::::*/
-    .cta-button {
-        text-align: left;
-        margin-top: 15px;
+    
+    .operate-title h2:before,
+    .operate-title h2:after {
+        max-width: 90px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+    
+    .design-para {
+        margin-top: 20px;
+    }
+     
+    /*::::::::::::::::::::::::::::::::::::
+       Training Area
+    ::::::::::::::::::::::::::::::::::::*/
+    
+    .training-title h2:before,
+    .training-title h2:after {
+        max-width: 170px;
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
@@ -68,7 +103,11 @@
     /*::::::::::::::::::::::::::::::::::::
        Section Title
     ::::::::::::::::::::::::::::::::::::*/
-    .section-title h2 {
+    .section-title h2,
+    .work-title h2,
+    .operate-title h2,
+    .design-title h2,
+    .training-title h2 {
         font-size: 24px;
     }
 
@@ -92,6 +131,18 @@
     }
     nav .main-menu .navbar-nav .nav-item .nav-link {
         padding: 15px 15px;
+    }
+
+    .navbar-brand h5 {
+        font-size: 15px;
+    }
+
+    .nav-img {
+        max-width: 200px;
+    }
+
+    .header-main {
+        margin-left: -20px;
     }
     /*::::::::::::::::::::::::::::::::::::
        Hero Area 
@@ -118,7 +169,7 @@
     }
 
     /*::::::::::::::::::::::::::::::::::::
-       Featured Area
+       About Area
     ::::::::::::::::::::::::::::::::::::*/
     .single-featured-item-wrap h3 {
         font-size: 20px;
@@ -126,14 +177,52 @@
     .featured-icon {
         font-size: 40px;
     }
-    /*::::::::::::::::::::::::::::::::::::
-       Portfolio Section
-    ::::::::::::::::::::::::::::::::::::*/
-    .work-list ul li {
-        margin-bottom: 5px;
+
+    .about-title h2 {
+        font-size: 2.1rem;
+        font-weight: 600;
     }
-    .portfolio-hover h4 {
+
+    .about-bg img {
+        max-width: 400px;
+    }
+
+    .about-title h5 {
         font-size: 18px;
+    }
+
+    .about-title h5:before{
+        width: 60px;
+        margin-left: 2rem;
+    } 
+
+    .about-title h5:after {
+        width: 60px;
+        margin-right: 2rem;
+    }
+
+    p {
+        margin-left: 1rem;
+        margin-right: 1rem  ;
+        font-size: 14px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+        Section Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .section-title h2:before {
+        width: 130px;
+        margin-left: 2.5rem;
+    }
+
+    .section-title h2:after {
+        width: 130px;
+        margin-right: 2.5rem;
+    }
+
+    .bg-img {
+        height: 90%;
+        margin: 1.5rem;
     }
 
     /*::::::::::::::::::::::::::::::::::::
@@ -166,35 +255,97 @@
     }
 
     /*::::::::::::::::::::::::::::::::::::
-       Frequently asked questions
+       Work Section
     ::::::::::::::::::::::::::::::::::::*/
-    .faq-content {
-        margin-top: 15px;
-    }
-    .single-faq h4 {
-        padding-right: 60px;
-        font-size: 16px;
+    
+    .work-title h2:before {
+        width: 100px;
+        margin-left: 3rem;
     }
 
+    .work-title h2:after {
+        width: 100px;
+        margin-right: 3rem;
+    }
+
+    .therapy h4,
+    .office h4,
+    .snap h4 {
+        font-size: 20px;
+    }
+
+    .therapy p,
+    .office p,
+    .snap p {
+        font-size: 12px;
+    }
+
+    .office img {
+        min-height: 160px;
+    }
 
     /*::::::::::::::::::::::::::::::::::::
-       Blog Section
+       Operate Section
     ::::::::::::::::::::::::::::::::::::*/
-    h4.blog-title {
-        font-size: 16px;
-    }
-    /*::::::::::::::::::::::::::::::::::::
-       Call to Action Area
-    ::::::::::::::::::::::::::::::::::::*/
-    .cta-button {
-        text-align: left;
-        margin-top: 15px;
+    
+    .operate-title h2:before {
+        max-width: 30px;
+        margin-left: 2rem;
     }
 
+    .section-operate {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 
+    .operate-title h2:after {
+        max-width: 30px;
+        margin-right: 2rem;
+    }
+
+    .points {
+        gap: 0;
+        padding: 0;
+    }
+
+    .points p {
+        font-size: 12px;
+    }
 
     /*::::::::::::::::::::::::::::::::::::
-       Why choose Me Section
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+    
+    .design-title h2:before {
+        width: 70px;
+        margin-left: 2rem;
+    }
+
+    .design-title h2:after {
+        width: 70px;
+        margin-right: 2rem;
+    }
+
+    .design-img img {
+        min-height: 220px;
+    }
+
+    .design-para {
+        margin-top: 20px;
+    }
+
+    .design-para p {
+        font-size: 12px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .design-plan img {
+        max-width: 450px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Training Section
     ::::::::::::::::::::::::::::::::::::*/
     .single-why-me h4 {
         font-size: 20px;
@@ -208,6 +359,27 @@
     .single-why-me {
         padding: 0;
         text-align: center;
+    }
+
+    .training-title h2:before {
+        width: 80px;
+        margin-left: 2rem;
+        top: 12%;
+    }
+
+    .training-title h2:after {
+        width: 80px;
+        margin-right: 2rem;
+        top: 12%;
+    }
+
+    .point {
+        gap: 0;
+        padding: 0;
+    }
+
+    .point p {
+        font-size: 12px;
     }
 
     /*::::::::::::::::::::::::::::::::::::
@@ -233,12 +405,30 @@
     .contact-form {
         padding: 15px;
     }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Footer Area 
+    ::::::::::::::::::::::::::::::::::::*/
+    footer{
+        text-align: center;
+    }
+
 }
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 
+    /*::::::::::::::::::::::::::::::::::::
+       Section Title
+    ::::::::::::::::::::::::::::::::::::*/
+    .section-title h2,
+    .work-title h2,
+    .operate-title h2,
+    .design-title h2,
+    .training-title h2 {
+        font-size: 18px;
+    }
 
     /*::::::::::::::::::::::::::::::::::::
        Main Menu
@@ -261,29 +451,97 @@
     nav .main-menu .navbar-nav .nav-item .nav-link {
         padding: 15px 15px;
     }
+
+    .navbar-brand h5 {
+        font-size: 15px;
+    }
+
+    .nav-img {
+        max-width: 200px;
+    }
+
+    .header-main {
+        margin-left: -20px;
+    }
     /*::::::::::::::::::::::::::::::::::::
        Hero Area 
     ::::::::::::::::::::::::::::::::::::*/
+    .hero-aria,
+    .hero-area-slids,
+    .single-slider {
+        height: 440px;
+    }
     .hero-content h2 {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .hero-content h3 {
-        font-size: 20px;
+        font-size: 15px;
         margin: 15px 0;
     }
 
     .hero-aria::after {
-        width: 70%;
+        width: 80%;
     }
     .hero-content {
-        max-width: 65%;
+        max-width: 70%;
     }
+
     /*::::::::::::::::::::::::::::::::::::
-       Portfolio Section
+       About Area
     ::::::::::::::::::::::::::::::::::::*/
-    .work-list ul li {
-        margin-bottom: 5px;
+    .single-featured-item-wrap h3 {
+        font-size: 20px;
+    }
+    .featured-icon {
+        font-size: 40px;
+    }
+
+    .about-title h2 {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+
+    .about-bg img {
+        max-width: 400px;
+    }
+
+    .about-title h5 {
+        font-size: 18px;
+    }
+
+    .about-title h5:before{
+        width: 60px;
+        margin-left: 2rem;
+    } 
+
+    .about-title h5:after {
+        width: 60px;
+        margin-right: 2rem;
+    }
+
+    p {
+        margin-left: 1rem;
+        margin-right: 1rem  ;
+        font-size: 14px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+        Section Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .section-title h2:before {
+        width: 130px;
+        margin-left: 2.5rem;
+    }
+
+    .section-title h2:after {
+        width: 130px;
+        margin-right: 2.5rem;
+    }
+
+    .bg-img {
+        height: 90%;
+        margin: 1.5rem;
     }
 
     /*::::::::::::::::::::::::::::::::::::
@@ -292,33 +550,162 @@
     .about-content {
         margin-top: 30px;
     }
+    .about-content h2 {
+        font-size: 24px;
+    }
+    .about-content h4 {
+        font-size: 16px;
+    }
 
     /*::::::::::::::::::::::::::::::::::::
        Service Section
     ::::::::::::::::::::::::::::::::::::*/
     .service-area::before {
         height: 100%;
+
+    }
+
+    .single-service h2 {
+        font-size: 24px;
+    }
+
+    .service-icon {
+        font-size: 45px;
     }
 
     /*::::::::::::::::::::::::::::::::::::
-       Frequently asked questions
+       Work Section
     ::::::::::::::::::::::::::::::::::::*/
-    .faq-content {
-        margin-top: 15px;
+    
+    .work-title h2:before {
+        width: 100px;
+        margin-left: 3rem;
     }
+
+    .work-title h2:after {
+        width: 100px;
+        margin-right: 3rem;
+    }
+
+    .therapy h4,
+    .office h4,
+    .snap h4 {
+        font-size: 20px;
+    }
+
+    .therapy p,
+    .office p,
+    .snap p {
+        font-size: 12px;
+    }
+
+    .office img {
+        min-height: 160px;
+    }
+
     /*::::::::::::::::::::::::::::::::::::
-       Call to Action Area
+       Operate Section
     ::::::::::::::::::::::::::::::::::::*/
-    .cta-button {
-        text-align: left;
-        margin-top: 15px;
+    
+    .operate-title h2:before {
+        max-width: 30px;
+        margin-left: 2rem;
+    }
+
+    .section-operate {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .operate-title h2:after {
+        max-width: 30px;
+        margin-right: 2rem;
+    }
+
+    .points {
+        gap: 0;
+        padding: 0;
+    }
+
+    .points p {
+        font-size: 12px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+    
+    .design-title h2:before {
+        width: 70px;
+        margin-left: 2rem;
+    }
+
+    .design-title h2:after {
+        width: 70px;
+        margin-right: 2rem;
+    }
+
+    .design-img img {
+        min-height: 220px;
+    }
+
+    .design-para {
+        margin-top: 20px;
+    }
+
+    .design-para p {
+        font-size: 12px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .design-plan img {
+        max-width: 450px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Training Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-why-me h4 {
+        font-size: 20px;
+    }
+    .why-me-right .why-me-icon,
+    .why-me-left .why-me-icon {
+        position: relative;
+        height: 100px;
+    }
+    .single-why-me.why-me-right,
+    .single-why-me {
+        padding: 0;
+        text-align: center;
+    }
+
+    .training-title h2:before {
+        width: 80px;
+        margin-left: 2rem;
+        top: 12%;
+    }
+
+    .training-title h2:after {
+        width: 80px;
+        margin-right: 2rem;
+        top: 12%;
+    }
+
+    .point {
+        gap: 0;
+        padding: 0;
+    }
+
+    .point p {
+        font-size: 12px;
     }
 
     /*::::::::::::::::::::::::::::::::::::
        Team Section
     ::::::::::::::::::::::::::::::::::::*/
     .single-team {
-        width: 300px;
+        max-width: 300px;
         margin: auto;
         margin-bottom: 30px;
     }
@@ -326,7 +713,7 @@
        Pricing Area
     ::::::::::::::::::::::::::::::::::::*/
     .single-price-box {
-        width: 300px;
+        max-width: 300px;
         margin: auto;
         margin-bottom: 30px;
     }
@@ -335,6 +722,15 @@
        Contact Area 
     ::::::::::::::::::::::::::::::::::::*/
     .contact-form {
-        padding: 30px;
+        padding: 15px;
     }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Footer Area 
+    ::::::::::::::::::::::::::::::::::::*/
+    footer{
+        text-align: center;
+    }
+    
 }
+
