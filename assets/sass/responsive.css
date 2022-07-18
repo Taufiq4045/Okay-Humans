@@ -1,0 +1,708 @@
+/* Medium Layout: 1280px. */
+/* Tablet Layout: 768px. */
+/*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Operate Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Training Area
+    ::::::::::::::::::::::::::::::::::::*/
+/* Mobile Layout: 320px. */
+/*::::::::::::::::::::::::::::::::::::
+       Section Title
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+        Section Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Work Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Operate Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Training Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Team Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Pricing Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Contact Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Footer Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/* Wide Mobile Layout: 480px. */
+/*::::::::::::::::::::::::::::::::::::
+       Section Title
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+        Section Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Work Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Operate Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Design Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Training Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Team Section
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Pricing Area
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Contact Area 
+    ::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::::::::::::::::::::::::
+       Footer Area 
+    ::::::::::::::::::::::::::::::::::::*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar.navbar-expand-lg.fixed-top {
+    position: static;
+    background-color: #15364c;
+  }
+  button.navbar-toggler {
+    color: #fff;
+  }
+  .navbar-nav {
+    background-color: #333;
+    margin-top: 30px;
+  }
+  .nav-item {
+    border-bottom: 1px solid;
+  }
+  nav .main-menu .navbar-nav .nav-item .nav-link {
+    padding: 15px 15px;
+  }
+  .hero-content h2 {
+    font-size: 70px;
+  }
+  .about-content {
+    margin-top: 30px;
+  }
+  .about-title h2 {
+    font-size: 3.1rem;
+    font-weight: 700;
+  }
+  .about-bg img {
+    max-width: 600px;
+  }
+  .service-area::before {
+    height: 100%;
+  }
+  .section-title h2:before {
+    width: 230px;
+  }
+  .section-title h2:after {
+    width: 230px;
+  }
+  .bg-img {
+    height: 97%;
+    margin: 1rem;
+  }
+  .operate-title h2:before {
+    max-width: 90px;
+  }
+  .operate-title h2:after {
+    max-width: 90px;
+  }
+  .design-para {
+    margin-top: 20px;
+  }
+  .training-title h2:before {
+    max-width: 170px;
+  }
+  .training-title h2:after {
+    max-width: 170px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-title h2 {
+    font-size: 24px;
+  }
+  .section-title h2:before {
+    width: 130px;
+    margin-left: 2.5rem;
+  }
+  .section-title h2:after {
+    width: 130px;
+    margin-right: 2.5rem;
+  }
+  .work-title h2 {
+    font-size: 24px;
+  }
+  .work-title h2:before {
+    width: 100px;
+    margin-left: 3rem;
+  }
+  .work-title h2:after {
+    width: 100px;
+    margin-right: 3rem;
+  }
+  .operate-title h2 {
+    font-size: 24px;
+  }
+  .operate-title h2:before {
+    max-width: 30px;
+    margin-left: 2rem;
+  }
+  .operate-title h2:after {
+    max-width: 30px;
+    margin-right: 2rem;
+  }
+  .design-title h2 {
+    font-size: 24px;
+  }
+  .design-title h2:before {
+    width: 70px;
+    margin-left: 2rem;
+  }
+  .design-title h2:after {
+    width: 70px;
+    margin-right: 2rem;
+  }
+  .training-title h2 {
+    font-size: 24px;
+  }
+  .training-title h2:before {
+    width: 80px;
+    margin-left: 2rem;
+    top: 12%;
+  }
+  .training-title h2:after {
+    width: 80px;
+    margin-right: 2rem;
+    top: 12%;
+  }
+  .navbar.navbar-expand-lg.fixed-top {
+    position: static;
+    background-color: #000;
+  }
+  button.navbar-toggler {
+    color: #fff;
+  }
+  .navbar-nav {
+    background-color: #333;
+    margin-top: 30px;
+  }
+  .nav-item {
+    border-bottom: 1px solid;
+  }
+  nav .main-menu .navbar-nav .nav-item .nav-link {
+    padding: 15px 15px;
+  }
+  .navbar-brand h5 {
+    font-size: 15px;
+  }
+  .nav-img {
+    max-width: 200px;
+  }
+  .header-main {
+    margin-left: -20px;
+  }
+  .hero-aria {
+    height: 440px;
+  }
+  .hero-area-slids {
+    height: 440px;
+  }
+  .single-slider {
+    height: 440px;
+  }
+  .hero-content {
+    max-width: 70%;
+  }
+  .hero-content h2 {
+    font-size: 30px;
+  }
+  .hero-content h3 {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+  .single-featured-item-wrap h3 {
+    font-size: 20px;
+  }
+  .featured-icon {
+    font-size: 40px;
+  }
+  .about-title h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .about-title h5 {
+    font-size: 18px;
+  }
+  .about-title h5:before {
+    width: 60px;
+    margin-left: 2rem;
+  }
+  .about-title h5:after {
+    width: 60px;
+    margin-right: 2rem;
+  }
+  .about-bg img {
+    max-width: 400px;
+  }
+  p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 14px;
+  }
+  .bg-img {
+    height: 90%;
+    margin: 1.5rem;
+  }
+  .about-content {
+    margin-top: 30px;
+  }
+  .about-content h2 {
+    font-size: 24px;
+  }
+  .about-content h4 {
+    font-size: 16px;
+  }
+  .service-area::before {
+    height: 100%;
+  }
+  .single-service h2 {
+    font-size: 24px;
+  }
+  .service-icon {
+    font-size: 45px;
+  }
+  .therapy h4 {
+    font-size: 20px;
+  }
+  .therapy p {
+    font-size: 12px;
+  }
+  .office h4 {
+    font-size: 20px;
+  }
+  .office p {
+    font-size: 12px;
+  }
+  .office img {
+    min-height: 160px;
+  }
+  .snap h4 {
+    font-size: 20px;
+  }
+  .snap p {
+    font-size: 12px;
+  }
+  .section-operate {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .points {
+    gap: 0;
+    padding: 0;
+  }
+  .points p {
+    font-size: 12px;
+  }
+  .design-img img {
+    min-height: 220px;
+  }
+  .design-para {
+    margin-top: 20px;
+  }
+  .design-para p {
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .design-plan img {
+    max-width: 450px;
+  }
+  .single-why-me {
+    padding: 0;
+    text-align: center;
+  }
+  .single-why-me h4 {
+    font-size: 20px;
+  }
+  .why-me-right .why-me-icon {
+    position: relative;
+    height: 100px;
+  }
+  .why-me-left .why-me-icon {
+    position: relative;
+    height: 100px;
+  }
+  .single-why-me.why-me-right {
+    padding: 0;
+    text-align: center;
+  }
+  .point {
+    gap: 0;
+    padding: 0;
+  }
+  .point p {
+    font-size: 12px;
+  }
+  .single-team {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .single-price-box {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .contact-form {
+    padding: 15px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section-title h2 {
+    font-size: 18px;
+  }
+  .section-title h2:before {
+    width: 60px;
+    margin-left: 3rem;
+  }
+  .section-title h2:after {
+    width: 60px;
+    margin-right: 3rem;
+  }
+  .work-title h2 {
+    font-size: 18px;
+  }
+  .work-title h2:before {
+    width: 50px;
+    margin-left: 3.5rem;
+  }
+  .work-title h2:after {
+    width: 50px;
+    margin-right: 3.5rem;
+  }
+  .training-title {
+    margin-top: 1rem;
+  }
+  .training-title h2 {
+    font-size: 18px;
+  }
+  .training-title h2:before {
+    width: 55px;
+    margin-left: 2.5rem;
+    top: 15%;
+  }
+  .training-title h2:after {
+    width: 55px;
+    margin-left: 2.5rem;
+    top: 15%;
+  }
+  .navbar.navbar-expand-lg.fixed-top {
+    position: static;
+    background-color: #15364c;
+  }
+  button.navbar-toggler {
+    color: #fff;
+  }
+  .navbar-nav {
+    background-color: #15364c;
+    margin-top: 30px;
+  }
+  .nav-item {
+    border-bottom: 1px solid;
+  }
+  nav .main-menu .navbar-nav .nav-item .nav-link {
+    padding: 15px 15px;
+  }
+  .navbar-brand h5 {
+    font-size: 10px;
+  }
+  .nav-img {
+    max-width: 120px;
+  }
+  .header-main {
+    margin-left: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .hero-aria {
+    height: 440px;
+    min-width: 373px;
+  }
+  .hero-area-slids {
+    height: 440px;
+    min-width: 373px;
+  }
+  .single-slider {
+    height: 440px;
+    min-width: 373px;
+  }
+  .hero-content {
+    max-width: 70%;
+  }
+  .hero-content h2 {
+    font-size: 30px;
+  }
+  .hero-content h3 {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+  .single-featured-item-wrap h3 {
+    font-size: 20px;
+  }
+  .featured-icon {
+    font-size: 40px;
+  }
+  .about-title h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .about-title h5 {
+    font-size: 12px;
+  }
+  .about-title h5:before {
+    width: 30px;
+    margin-left: 2rem;
+  }
+  .about-title h5:after {
+    width: 30px;
+    margin-right: 2rem;
+  }
+  .about-bg img {
+    max-width: 280px;
+  }
+  p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 10px;
+  }
+  .about-button {
+    font-size: 10px;
+    font-weight: 300;
+    background-color: #e8d0cd;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  .bg-img {
+    height: 90%;
+    margin: 1.5rem;
+  }
+  .section-para h6 {
+    font-size: 8px;
+  }
+  .about-content {
+    margin-top: 30px;
+  }
+  .about-content h2 {
+    font-size: 24px;
+  }
+  .about-content h4 {
+    font-size: 16px;
+  }
+  .service-area::before {
+    height: 100%;
+  }
+  .single-service h2 {
+    font-size: 24px;
+  }
+  .service-icon {
+    font-size: 45px;
+  }
+  .therapy {
+    padding: 0;
+  }
+  .therapy h4 {
+    font-size: 12px;
+  }
+  .therapy p {
+    font-size: 8px;
+  }
+  .therapy img {
+    padding: 15%;
+    margin-bottom: 30px;
+  }
+  .office h4 {
+    font-size: 12px;
+  }
+  .office p {
+    font-size: 8px;
+  }
+  .office img {
+    max-height: 120px;
+  }
+  .snap {
+    padding: 0;
+  }
+  .snap h4 {
+    font-size: 12px;
+  }
+  .snap p {
+    font-size: 8px;
+  }
+  .snap img {
+    padding: 15%;
+  }
+  .operate-title h2 {
+    font-size: 16px;
+  }
+  .operate-title h2:before {
+    max-width: 15px;
+    margin-left: 3rem;
+    top: 15%;
+  }
+  .operate-title h2:after {
+    max-width: 15px;
+    margin-right: 3rem;
+    top: 15%;
+  }
+  .section-operate {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .points {
+    gap: 0;
+    padding: 0;
+  }
+  .points p {
+    font-size: 10px;
+  }
+  .design-title h2 {
+    font-size: 16px;
+  }
+  .design-title h2:before {
+    width: 40px;
+    top: 40%;
+    margin-left: 2.5rem;
+  }
+  .design-title h2:after {
+    width: 40px;
+    top: 40%;
+    margin-right: 2.5rem;
+  }
+  .design-img img {
+    min-height: 180px;
+  }
+  .design-para {
+    margin-top: 20px;
+  }
+  .design-para p {
+    font-size: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .design-plan img {
+    max-width: 300px;
+  }
+  .single-why-me {
+    padding: 0;
+    text-align: center;
+  }
+  .single-why-me h4 {
+    font-size: 20px;
+  }
+  .why-me-right .why-me-icon {
+    position: relative;
+    height: 100px;
+  }
+  .why-me-left .why-me-icon {
+    position: relative;
+    height: 100px;
+  }
+  .single-why-me.why-me-right {
+    padding: 0;
+    text-align: center;
+  }
+  .point {
+    gap: 0;
+    padding: 0;
+  }
+  .point p {
+    font-size: 10px;
+  }
+  .single-team {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .single-price-box {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .contact-form {
+    padding: 15px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
